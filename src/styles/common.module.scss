@@ -1,1 +1,23 @@
-// TODO
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.infos {
+  display: grid;
+  column-gap: 1.875rem;
+  justify-content: start;
+  grid-auto-flow: column;
+
+  span {
+    display: flex;
+    align-items: center;
+    color: var(--info);
+    font-size: 0.875rem;
+
+    img {
+      margin-right: 0.625rem;
+    }
+  }
+}
